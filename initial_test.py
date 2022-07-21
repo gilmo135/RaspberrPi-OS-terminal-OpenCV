@@ -71,8 +71,9 @@ while True:
 		# check to see if the tracking was a success
 		if success:
 			(x, y, w, h) = [int(v) for v in box]
-      os.system("echo Track Success | wall -n")
-      os.system("echo x, y, w, h | wall -n")
+			os.system("echo Track Success | wall -n")
+			os.system("echo x, y, w, h | wall -n")
+      
       
 
         
