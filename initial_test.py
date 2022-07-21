@@ -7,7 +7,7 @@ import time
 import cv2
 import os
 
-OpenCV Object Tracking
+#OpenCV Object Tracking
 # construct the argument parser and parse the arguments
 ap = argparse.ArgumentParser()
 ap.add_argument("-v", "--video", type=str,
